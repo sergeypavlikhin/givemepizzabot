@@ -1,6 +1,7 @@
 {
   "name": "givemepizzabot",
   "scripts": {
+    "start": "node server.js"
   },
   "env": {
   },
