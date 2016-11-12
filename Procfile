@@ -1,1 +1,1 @@
-web: node app.jsi
+web: node app.js
