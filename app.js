@@ -49,7 +49,7 @@ app.use('/', (req, res) => {
     res.json(answer(req, db));
 });
 
-server.listen(3000, 'localhost', () => {
+server.listen(process.env.PORT || 3000, process.env.IP || 'localhost', () => {
 
 
 }
